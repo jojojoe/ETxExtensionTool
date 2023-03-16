@@ -3,19 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E79AFD4D47CA57F4FAA97F2 /* Pods_ETxExtensionTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD888E688F23060AB7FCD8B8 /* Pods_ETxExtensionTool.framework */; };
 		EB6496D329C2B501006D88F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496D229C2B501006D88F8 /* AppDelegate.swift */; };
 		EB6496D529C2B501006D88F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496D429C2B501006D88F8 /* SceneDelegate.swift */; };
 		EB6496D729C2B501006D88F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496D629C2B501006D88F8 /* ViewController.swift */; };
 		EB6496DA29C2B501006D88F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6496D829C2B501006D88F8 /* Main.storyboard */; };
 		EB6496DC29C2B504006D88F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6496DB29C2B504006D88F8 /* Assets.xcassets */; };
 		EB6496DF29C2B504006D88F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6496DD29C2B504006D88F8 /* LaunchScreen.storyboard */; };
+		EB6496E829C2BA4C006D88F8 /* TExViewConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496E729C2BA4C006D88F8 /* TExViewConvenience.swift */; };
+		EB6496EB29C2BAAE006D88F8 /* TExButtonSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496EA29C2BAAE006D88F8 /* TExButtonSwifty.swift */; };
+		EB6496EF29C2BB17006D88F8 /* TExTextViewSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496EE29C2BB17006D88F8 /* TExTextViewSwifty.swift */; };
+		EB6496F129C2BB67006D88F8 /* TExImageViewSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496F029C2BB67006D88F8 /* TExImageViewSwifty.swift */; };
+		EB6496F329C2BB93006D88F8 /* TExImageSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496F229C2BB93006D88F8 /* TExImageSwifty.swift */; };
+		EB6496F629C2BC45006D88F8 /* ETxDataSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496F529C2BC45006D88F8 /* ETxDataSwifty.swift */; };
+		EB6496F829C2BC9F006D88F8 /* ETxDoubleSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496F729C2BC9F006D88F8 /* ETxDoubleSwifty.swift */; };
+		EB6496FA29C2BCEA006D88F8 /* TExMutableAttributedStringSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496F929C2BCEA006D88F8 /* TExMutableAttributedStringSwifty.swift */; };
+		EB6496FC29C2BD2A006D88F8 /* TExTextFieldSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496FB29C2BD2A006D88F8 /* TExTextFieldSwifty.swift */; };
+		EB6496FE29C2BD49006D88F8 /* TExScrollViewSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496FD29C2BD49006D88F8 /* TExScrollViewSwifty.swift */; };
+		EB64970029C2BD99006D88F8 /* TExStringSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6496FF29C2BD99006D88F8 /* TExStringSwifty.swift */; };
+		EB64970229C2BDEF006D88F8 /* TExLabelSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB64970129C2BDEF006D88F8 /* TExLabelSwifty.swift */; };
+		EB64970429C2BE82006D88F8 /* TExColorSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB64970329C2BE82006D88F8 /* TExColorSwifty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		902A9697A5F2DE6836C23674 /* Pods-ETxExtensionTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETxExtensionTool.debug.xcconfig"; path = "Target Support Files/Pods-ETxExtensionTool/Pods-ETxExtensionTool.debug.xcconfig"; sourceTree = "<group>"; };
+		AD888E688F23060AB7FCD8B8 /* Pods_ETxExtensionTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ETxExtensionTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6496CF29C2B501006D88F8 /* ETxExtensionTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETxExtensionTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6496D229C2B501006D88F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB6496D429C2B501006D88F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,20 @@
 		EB6496DB29C2B504006D88F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6496DE29C2B504006D88F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB6496E029C2B504006D88F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6496E729C2BA4C006D88F8 /* TExViewConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TExViewConvenience.swift; sourceTree = "<group>"; };
+		EB6496EA29C2BAAE006D88F8 /* TExButtonSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TExButtonSwifty.swift; sourceTree = "<group>"; };
+		EB6496EE29C2BB17006D88F8 /* TExTextViewSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TExTextViewSwifty.swift; sourceTree = "<group>"; };
+		EB6496F029C2BB67006D88F8 /* TExImageViewSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TExImageViewSwifty.swift; sourceTree = "<group>"; };
+		EB6496F229C2BB93006D88F8 /* TExImageSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TExImageSwifty.swift; sourceTree = "<group>"; };
+		EB6496F529C2BC45006D88F8 /* ETxDataSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETxDataSwifty.swift; sourceTree = "<group>"; };
+		EB6496F729C2BC9F006D88F8 /* ETxDoubleSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETxDoubleSwifty.swift; sourceTree = "<group>"; };
+		EB6496F929C2BCEA006D88F8 /* TExMutableAttributedStringSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TExMutableAttributedStringSwifty.swift; sourceTree = "<group>"; };
+		EB6496FB29C2BD2A006D88F8 /* TExTextFieldSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TExTextFieldSwifty.swift; sourceTree = "<group>"; };
+		EB6496FD29C2BD49006D88F8 /* TExScrollViewSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TExScrollViewSwifty.swift; sourceTree = "<group>"; };
+		EB6496FF29C2BD99006D88F8 /* TExStringSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TExStringSwifty.swift; sourceTree = "<group>"; };
+		EB64970129C2BDEF006D88F8 /* TExLabelSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TExLabelSwifty.swift; sourceTree = "<group>"; };
+		EB64970329C2BE82006D88F8 /* TExColorSwifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TExColorSwifty.swift; sourceTree = "<group>"; };
+		EE0A8441412138B3A45B0943 /* Pods-ETxExtensionTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETxExtensionTool.release.xcconfig"; path = "Target Support Files/Pods-ETxExtensionTool/Pods-ETxExtensionTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,18 +61,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E79AFD4D47CA57F4FAA97F2 /* Pods_ETxExtensionTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1FA18EB179F74594B5A502C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD888E688F23060AB7FCD8B8 /* Pods_ETxExtensionTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D37F84ED95C09425EF911D54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				902A9697A5F2DE6836C23674 /* Pods-ETxExtensionTool.debug.xcconfig */,
+				EE0A8441412138B3A45B0943 /* Pods-ETxExtensionTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EB6496C629C2B501006D88F8 = {
 			isa = PBXGroup;
 			children = (
 				EB6496E629C2B50F006D88F8 /* Extensiontool */,
 				EB6496D129C2B501006D88F8 /* ETxExtensionTool */,
 				EB6496D029C2B501006D88F8 /* Products */,
+				D37F84ED95C09425EF911D54 /* Pods */,
+				D1FA18EB179F74594B5A502C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +121,37 @@
 		EB6496E629C2B50F006D88F8 /* Extensiontool */ = {
 			isa = PBXGroup;
 			children = (
+				EB6496F429C2BBC4006D88F8 /* FoundationGroup */,
+				EB6496E929C2BA6D006D88F8 /* ViewsGroup */,
 			);
 			path = Extensiontool;
+			sourceTree = "<group>";
+		};
+		EB6496E929C2BA6D006D88F8 /* ViewsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				EB6496E729C2BA4C006D88F8 /* TExViewConvenience.swift */,
+				EB6496EA29C2BAAE006D88F8 /* TExButtonSwifty.swift */,
+				EB64970129C2BDEF006D88F8 /* TExLabelSwifty.swift */,
+				EB6496EE29C2BB17006D88F8 /* TExTextViewSwifty.swift */,
+				EB6496F029C2BB67006D88F8 /* TExImageViewSwifty.swift */,
+				EB6496FB29C2BD2A006D88F8 /* TExTextFieldSwifty.swift */,
+				EB6496FD29C2BD49006D88F8 /* TExScrollViewSwifty.swift */,
+			);
+			path = ViewsGroup;
+			sourceTree = "<group>";
+		};
+		EB6496F429C2BBC4006D88F8 /* FoundationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				EB6496F529C2BC45006D88F8 /* ETxDataSwifty.swift */,
+				EB6496F729C2BC9F006D88F8 /* ETxDoubleSwifty.swift */,
+				EB6496FF29C2BD99006D88F8 /* TExStringSwifty.swift */,
+				EB6496F229C2BB93006D88F8 /* TExImageSwifty.swift */,
+				EB6496F929C2BCEA006D88F8 /* TExMutableAttributedStringSwifty.swift */,
+				EB64970329C2BE82006D88F8 /* TExColorSwifty.swift */,
+			);
+			path = FoundationGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB6496E329C2B504006D88F8 /* Build configuration list for PBXNativeTarget "ETxExtensionTool" */;
 			buildPhases = (
+				13346E6DE2C6B94B9050893B /* [CP] Check Pods Manifest.lock */,
 				EB6496CB29C2B501006D88F8 /* Sources */,
 				EB6496CC29C2B501006D88F8 /* Frameworks */,
 				EB6496CD29C2B501006D88F8 /* Resources */,
+				4289178A386CF7EE88E048FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,7 +192,7 @@
 				};
 			};
 			buildConfigurationList = EB6496CA29C2B501006D88F8 /* Build configuration list for PBXProject "ETxExtensionTool" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,14 +222,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13346E6DE2C6B94B9050893B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ETxExtensionTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4289178A386CF7EE88E048FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ETxExtensionTool/Pods-ETxExtensionTool-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ETxExtensionTool/Pods-ETxExtensionTool-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ETxExtensionTool/Pods-ETxExtensionTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB6496CB29C2B501006D88F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6496F129C2BB67006D88F8 /* TExImageViewSwifty.swift in Sources */,
+				EB6496F329C2BB93006D88F8 /* TExImageSwifty.swift in Sources */,
+				EB6496E829C2BA4C006D88F8 /* TExViewConvenience.swift in Sources */,
+				EB64970229C2BDEF006D88F8 /* TExLabelSwifty.swift in Sources */,
 				EB6496D729C2B501006D88F8 /* ViewController.swift in Sources */,
+				EB64970429C2BE82006D88F8 /* TExColorSwifty.swift in Sources */,
+				EB64970029C2BD99006D88F8 /* TExStringSwifty.swift in Sources */,
+				EB6496FA29C2BCEA006D88F8 /* TExMutableAttributedStringSwifty.swift in Sources */,
+				EB6496F629C2BC45006D88F8 /* ETxDataSwifty.swift in Sources */,
 				EB6496D329C2B501006D88F8 /* AppDelegate.swift in Sources */,
+				EB6496FC29C2BD2A006D88F8 /* TExTextFieldSwifty.swift in Sources */,
 				EB6496D529C2B501006D88F8 /* SceneDelegate.swift in Sources */,
+				EB6496F829C2BC9F006D88F8 /* ETxDoubleSwifty.swift in Sources */,
+				EB6496EF29C2BB17006D88F8 /* TExTextViewSwifty.swift in Sources */,
+				EB6496EB29C2BAAE006D88F8 /* TExButtonSwifty.swift in Sources */,
+				EB6496FE29C2BD49006D88F8 /* TExScrollViewSwifty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +426,7 @@
 		};
 		EB6496E429C2B504006D88F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902A9697A5F2DE6836C23674 /* Pods-ETxExtensionTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,6 +454,7 @@
 		};
 		EB6496E529C2B504006D88F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0A8441412138B3A45B0943 /* Pods-ETxExtensionTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

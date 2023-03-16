@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ETxExtensionTool
 //
-//  Created by JOJO on 2023/3/16.
+//  Created by xxxx on 2023/x/xx.
 //
 
 import UIKit
