@@ -107,9 +107,9 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   spec.resources = ["Extensiontool/**/*.{png,jpg,jpeg,plist,mp3,html,css,js}","ETxExtensionTool/Extensiontool/**/*.{xib, storyBoard}"]
-  spec.resource_bundles = {
-    'ETxExtensionTool' => ['ETxExtensionTool/*.xcassets']
-  }
+  # spec.resource_bundles = {
+  #   'ETxExtensionTool' => ['ETxExtensionTool/*.xcassets']
+  # }
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
